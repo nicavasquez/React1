@@ -1,0 +1,15 @@
+ /* Abstracts */
+ @use "./scss/abstracts/mixin"
+ @use "./scss/abstracts/variable";
+ 
+ /* Base */
+ 
+ @use "./scss/base/base";
+ @use "./scss/base/reset";
+
+body {
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
